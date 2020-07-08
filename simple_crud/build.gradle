@@ -1,0 +1,13 @@
+plugins{
+    id 'java'
+    id 'application'
+}
+
+mainClassName='app.ExemploBasicoCRUD'
+repositories{
+    mavenCentral()
+}
+dependencies{
+    implementation 'org.hibernate:hibernate-core:5.3.7.Final'
+    implementation 'org.mariadb.jdbc:mariadb-java-client:2.2.0'
+}
