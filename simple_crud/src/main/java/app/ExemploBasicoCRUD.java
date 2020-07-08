@@ -24,7 +24,7 @@ public class ExemploBasicoCRUD {
         
         /* Criação de uma entidade - CREATE */        
         Usuario u0 = new Usuario();
-        u0.setNome("Rodrigo");
+        u0.setNome("Fabrício");
         em.getTransaction().begin();
         em.persist(u0);
         em.getTransaction().commit();
